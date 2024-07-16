@@ -4,7 +4,7 @@ verbs = ["Play", "Love"]
 objects = ["Cricket", "Ludo"]
 
 for subject in subjects:
-    for verb in verbs:
+    for verb in verbs: 
         for obj in objects:
             sentence = f"{subject} {verb} {obj}."
             print(sentence)
