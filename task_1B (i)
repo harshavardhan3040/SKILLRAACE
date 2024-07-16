@@ -74,7 +74,7 @@ class EBook(Book):
         self._royalty = royalty_before_gst - gst_deduction
         return self._royalty
 
-# Example usage
+# Example usage 
 book = Book("The Great Gatsby", "F. Scott Fitzgerald", "Scribner", 20)
 print(f"Book Royalty for 2000 copies: ${book.calculate_royalty(2000):.2f}")
 
