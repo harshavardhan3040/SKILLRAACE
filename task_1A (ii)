@@ -1,0 +1,12 @@
+import demoji
+
+# Download the latest emoji data
+demoji.download_codes()
+
+# Example text with emojis
+text_with_emojis = "Hello 🌍! Have a great day 😊"
+
+# Replace emojis with text descriptions
+text_with_descriptions = demoji.replace_with_desc(text_with_emojis, sep=":")
+
+print(text_with_descriptions)
