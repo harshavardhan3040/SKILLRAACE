@@ -1,0 +1,12 @@
+# Lists of subjects, verbs, and objects
+subjects = ["I", "You"]
+verbs = ["Play", "Love"]
+objects = ["Cricket", "Ludo"]
+
+# Generate all possible sentences
+for subject in subjects:
+    for verb in verbs:
+        for obj in objects:
+            sentence = f"{subject} {verb} {obj}."
+            print(sentence)
+                                                                  
