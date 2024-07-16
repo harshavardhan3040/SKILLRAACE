@@ -9,4 +9,3 @@ for subject in subjects:
         for obj in objects:
             sentence = f"{subject} {verb} {obj}."
             print(sentence)
-                                                    
